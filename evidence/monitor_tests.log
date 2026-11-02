@@ -1,0 +1,16 @@
+=== stms_monitor.sh (Module 1) smoke tests ===
+monitor: /c/Users/satvi/Desktop/STMS/src/stms_monitor.sh
+results: /c/Users/satvi/Desktop/STMS/evidence/monitor_tests.log
+workdir: /tmp/tmp.8rHuARqL6h/stage
+PASS: case1-sensor_reader-ok-count
+PASS: case1-signal_ctrl-ok-count
+PASS: case1-logger-ok-count
+PASS: case1-no-down
+PASS: case2-signal_ctrl-alive-after-restart
+PASS: case3-rotation-exit
+PASS: case3-rotated-gz
+PASS: case4-empty-glob-exit
+PASS: case5-idempotent-exit
+
+SUMMARY: PASS=9 FAIL=0
+ALL MODULE-1 TESTS PASSED
